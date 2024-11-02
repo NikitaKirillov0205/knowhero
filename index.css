@@ -119,8 +119,8 @@
     }
     
     .articleimage{
-        width: 200px;
-        height: 90%;
+        width: 100px;
+        height: 150px;
         border-radius: 15px;
         margin-left: 50px;
         object-fit: cover;
