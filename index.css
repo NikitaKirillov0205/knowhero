@@ -125,6 +125,11 @@
         margin-left: 50px;
         object-fit: cover;
     }
+
+    html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 }    
 
 
