@@ -1,0 +1,261 @@
+@font-face {
+    font-family: "Harmony";
+    src: url(HARMONY\ Personal\ use.otf);
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(Gilroy-UltraLight.ttf);
+}
+
+@media (max-width: 600px){
+    .logo{
+        text-align: center;
+        font-family: Harmony;
+        font-weight: 100;
+        font-size: 30px;
+    }
+    
+    .search_section{
+        height: 100px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .input{
+        width: 80%;
+        height: 50%;
+        border-radius: 5px;
+        border-width: 0px;
+        background-color: aliceblue;
+        box-sizing: border-box;
+        padding-left: 25px;
+        font-family: Gilroy;
+        font-size: 20px;
+    }
+    
+    .buttonn{
+        height: 50%;
+        width: 30%;
+        font-family: Gilroy;
+        font-size: 15px;
+        border-width: 0px;
+    }
+    
+    .articles > div{
+        background-color: aliceblue;
+        height: 250px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;     
+        box-sizing: border-box;
+        margin: 20px;
+        border-radius: 25px;
+        margin-bottom: 100px;
+    }
+    
+    .right{
+        width: 100%;
+    }
+    
+    .articletitle{
+        text-align: center;
+        font-family: Harmony;
+        font-weight: 100;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .articledescription{
+        font-family: Gilroy;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .articlelink{
+        color: black;
+        font-family: Harmony;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .upper{
+        height: 10px;
+        width: 100%;
+        background-color: #9E6344 ;
+    }
+    
+    body{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .lc{
+        text-align: center;
+    }
+    
+    .footer{
+        font-family: Harmony;
+        color: white;
+        background-color: #9E6344;
+        height: 30px;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .articleimage{
+        width: 200px;
+        height: 90%;
+        border-radius: 15px;
+        margin-left: 50px;
+        object-fit: cover;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+
+.logo{
+    text-align: center;
+    font-family: Harmony;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.search_section{
+    height: 100px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input{
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding-left: 25px;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+
+.buttonn{
+    height: 20%;
+    width: 30%;
+    font-family: Gilroy;
+    font-size: 15px;
+}
+
+.articles > div{
+    background-color: aliceblue;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;     
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+.right{
+    width: 100%;
+}
+
+.articletitle{
+    text-align: center;
+    font-family: Harmony;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+}
+
+.articledescription{
+    font-family: Gilroy;
+    font-size: 20px;
+    text-align: center;
+}
+
+.articlelink{
+    color: black;
+    font-family: Harmony;
+    font-size: 20px;
+    text-align: center;
+}
+
+.upper{
+    height: 10px;
+    width: 100%;
+    background-color: #9E6344 ;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.lc{
+    text-align: center;
+}
+
+.footer{
+    font-family: Harmony;
+    color: white;
+    background-color: #9E6344;
+    height: 30px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.articleimage{
+    width: 300px;
+    height: 90%;
+    border-radius: 15px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+}
